@@ -9,6 +9,10 @@ import {PostDataService} from "./post-data.service";
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { IndexBannerComponent } from './index-banner/index-banner.component';
+import { AboutSectionComponent } from './about-section/about-section.component';
+import { AboutBannerComponent } from './about-banner/about-banner.component';
+import { ContactUsComponent } from './contact-us/contact-us.component';
+import { ContactUsBannerComponent } from './contact-us-banner/contact-us-banner.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +20,11 @@ import { IndexBannerComponent } from './index-banner/index-banner.component';
     PostListComponent,
     NavComponent,
     FooterComponent,
-    IndexBannerComponent
+    IndexBannerComponent,
+    AboutSectionComponent,
+    AboutBannerComponent,
+    ContactUsComponent,
+    ContactUsBannerComponent
   ],
   imports: [
     BrowserModule,
