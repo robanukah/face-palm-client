@@ -8,13 +8,15 @@ import { PostListComponent } from './post-list/post-list.component';
 import {PostDataService} from "./post-data.service";
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
+import { IndexBannerComponent } from './index-banner/index-banner.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     PostListComponent,
     NavComponent,
-    FooterComponent
+    FooterComponent,
+    IndexBannerComponent
   ],
   imports: [
     BrowserModule,
