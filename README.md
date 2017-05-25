@@ -1,4 +1,4 @@
-# FacePalmClient
+# [Face Palm](https://solairerove.github.io/face-palm-client/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
 
