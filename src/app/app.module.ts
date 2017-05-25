@@ -6,11 +6,15 @@ import { HttpModule } from '@angular/http';
 import { AppComponent } from './app.component';
 import { PostListComponent } from './post-list/post-list.component';
 import {PostDataService} from "./post-data.service";
+import { NavComponent } from './nav/nav.component';
+import { FooterComponent } from './footer/footer.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    PostListComponent
+    PostListComponent,
+    NavComponent,
+    FooterComponent
   ],
   imports: [
     BrowserModule,
