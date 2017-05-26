@@ -6,7 +6,7 @@ import { RouterModule, Routes } from '@angular/router';
 
 import { AppComponent } from './app.component';
 import { PostListComponent } from './post-list/post-list.component';
-import {PostDataService} from './post-data.service';
+import { PostDataService } from './post-data.service';
 import { NavComponent } from './nav/nav.component';
 import { FooterComponent } from './footer/footer.component';
 import { IndexBannerComponent } from './index-banner/index-banner.component';
