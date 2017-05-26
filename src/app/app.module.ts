@@ -16,6 +16,7 @@ import { ContactUsComponent } from './contact-us/contact-us.component';
 import { ContactUsBannerComponent } from './contact-us-banner/contact-us-banner.component';
 import { HomeComponent } from './home/home.component';
 import { BlogStartComponent } from './blog-start/blog-start.component';
+import { PostCardComponent } from './post-card/post-card.component';
 
 const appRoutes: Routes = [
   {path: 'blog', component: BlogStartComponent},
@@ -35,7 +36,8 @@ const appRoutes: Routes = [
     ContactUsComponent,
     ContactUsBannerComponent,
     HomeComponent,
-    BlogStartComponent
+    BlogStartComponent,
+    PostCardComponent
   ],
   imports: [
     BrowserModule,

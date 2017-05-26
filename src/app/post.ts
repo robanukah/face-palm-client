@@ -1,7 +1,9 @@
 export class Post {
   id: string;
   title: string;
+  description: string;
   content: string;
+  avatar: string;
   date: string;
   author: string;
 
