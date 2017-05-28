@@ -16,4 +16,10 @@ export class PostDataService {
       .get(environment.url + '/api/posts')
       .map(res => res.json());
   }
+
+  fetchPost(id: string): Observable<Post> {
+    return this.http
+      .get(environment.url + '/api/posts/' + id)
+      .map(res => res.json());
+  }
 }

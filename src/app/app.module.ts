@@ -17,11 +17,13 @@ import { ContactUsBannerComponent } from './contact-us-banner/contact-us-banner.
 import { HomeComponent } from './home/home.component';
 import { BlogStartComponent } from './blog-start/blog-start.component';
 import { PostCardComponent } from './post-card/post-card.component';
+import { PostContentComponent } from './post-content/post-content.component';
 
 const appRoutes: Routes = [
-  {path: 'blog', component: BlogStartComponent},
+  {path: '', redirectTo: '/home', pathMatch: 'full'},
   {path: 'home', component: HomeComponent},
-  {path: '', redirectTo: '/home', pathMatch: 'full'}
+  {path: 'blog', component: BlogStartComponent},
+  {path: 'blog/:id', component: PostContentComponent}
 ];
 
 @NgModule({
@@ -37,7 +39,8 @@ const appRoutes: Routes = [
     ContactUsBannerComponent,
     HomeComponent,
     BlogStartComponent,
-    PostCardComponent
+    PostCardComponent,
+    PostContentComponent
   ],
   imports: [
     BrowserModule,
