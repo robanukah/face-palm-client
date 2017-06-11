@@ -1,4 +1,4 @@
-# [Face Palm](https://github.com/robanukah/face-palm-client)
+# [Face Palm](https://robanukah.github.io/face-palm-client/)
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 1.0.4.
 
@@ -30,5 +30,5 @@ To get more help on the Angular CLI use `ng help` or go check out the [Angular C
 ## [Deploy](https://github.com/angular-buch/angular-cli-ghpages) on github pages
 
 * `ng build`
-* `ng build --prod --base-href "https://github.com/robanukah/face-palm-client"`
+* `ng build --prod --base-href "https://robanukah.github.io/face-palm-client/"`
 * `angular-cli-ghpages`
