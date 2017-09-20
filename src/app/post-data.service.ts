@@ -13,13 +13,13 @@ export class PostDataService {
 
   fetchPosts(): Observable<Post[]> {
     return this.http
-      .get(environment.url + '/api/posts')
+      .get(environment.url + '/api/v1/posts')
       .map(res => res.json());
   }
 
   fetchPost(id: string): Observable<Post> {
     return this.http
-      .get(environment.url + '/api/posts/' + id)
+      .get(environment.url + '/api/v1/posts/' + id)
       .map(res => res.json());
   }
 }
