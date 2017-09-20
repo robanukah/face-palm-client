@@ -1,13 +1,11 @@
 export class Post {
-  _id: string;
+  id: string;
   title: string;
-  description: string;
-  content: string;
-  avatar: string;
-  date: string;
   author: string;
+  date: string;
+  content: string;
 
-  constructor(values: Object = {}) {
-    Object.assign(this, values);
-  }
+  // constructor(values: Object = {}) {
+  //   Object.assign(this, values);
+  // }
 }

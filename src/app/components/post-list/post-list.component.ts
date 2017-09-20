@@ -1,6 +1,7 @@
 import {Component, OnInit} from '@angular/core';
 import {PostDataService} from '../../post-data.service';
 import {Post} from '../../post';
+import {Posts} from 'app/posts';
 
 @Component({
   selector: 'app-post-list',
@@ -9,7 +10,7 @@ import {Post} from '../../post';
 })
 export class PostListComponent implements OnInit {
 
-  posts: Post[];
+  posts: Posts;
 
   constructor(private service: PostDataService) {
   }
@@ -17,6 +18,9 @@ export class PostListComponent implements OnInit {
   ngOnInit() {
     this.service
       .fetchPosts()
-      .subscribe(posts => this.posts = posts);
+      .subscribe(posts => {
+        this.posts = posts;
+        console.log(posts);
+      });
   }
 }
