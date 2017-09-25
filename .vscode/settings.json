@@ -1,0 +1,8 @@
+{
+  "workbench.iconTheme": "vscode-icons",
+  "editor.fontFamily": "Monaco, 'Courier New', monospace",
+
+  "eslint.enable": true,
+  "vsicons.projectDetection.disableDetect": true,
+  "workbench.colorTheme": "One Dark Pro"
+}
